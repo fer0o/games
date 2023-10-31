@@ -1,9 +1,13 @@
+import Header from "./Components/Header/Header"
+import Home from "./Pages/Home"
+
 function App() {
   return (
-    <div>
-      <h1 className="text-2xl text-blue-800">Hola a todos</h1>
+    <div className="dark bg-black">
+      <Header/>
+     <Home/>
     </div>
   )
 }
 
-export default App
+export default App  
